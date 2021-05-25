@@ -1,0 +1,46 @@
+.black{
+    border: 5px solid blue;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.center-title{
+    color: blue;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.navigation-links li{
+    display: inline;
+    margin: 10px;
+}
+
+.container { 
+    display: flex;
+    width: 300px; 
+}
+
+ .blogpost {
+    width: 300px; 
+    border: 1px solid black;
+    flex-grow: 3;
+ }
+
+ .blogpost1 {
+     flex-grow: 3;
+ }
+
+ .blogpost2 {
+     align-self: flex-end;
+ }
+@media (min-width: 1024px) {
+    html{
+        background-color: lavender;
+        color: red;
+        font-size: 20px;
+        line-height: 2;
+    }
+ 
+    }
+}
+
